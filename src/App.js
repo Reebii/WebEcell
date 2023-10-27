@@ -2,7 +2,9 @@ import './App.css';
 
 function App() {
   return (
-    <div>E-CELL</div>
+    <>
+      <h1>E-CELL</h1>
+    </>
   );
 }
 

@@ -1,0 +1,47 @@
+#onload-cont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+#onload-cont img {
+    width: 35%;
+}
+
+@keyframes scaling {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(2.5);
+        opacity: 0;
+    }
+}
+
+@media (width<=1024px) {
+    #onload-cont img {
+        width: 40%;
+    }
+}
+
+@media (width<=768px) {
+    #onload-cont img {
+        width: 48%;
+    }
+}
+
+@media (width<=425px) {
+    #onload-cont img {
+        width: 70%;
+    }
+}
