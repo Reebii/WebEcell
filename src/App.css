@@ -122,3 +122,17 @@
     background-color: black;
     color: white;
 }
+
+.content-container {
+  min-height: calc(100vh - /* Height of the Footer */);
+  overflow-y: scroll; /* Always show a vertical scrollbar */
+  padding: 20px; /* Adjust as needed */
+  box-sizing: border-box;
+}
+
+Footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Additional styles for your footer */
+}
